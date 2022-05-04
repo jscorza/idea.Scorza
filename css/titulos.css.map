@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,MAAM,EAAE,GAAG;EACX,gBAAgB,EAAE,0BAA0B;EAC5C,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,IAAI;CAClB;;AACD,AAAA,SAAS,CAAA;EACL,aAAa,EAAE,IAAI;CACtB",
-    "sources": [
-        "../scss/titulos.scss"
-    ],
-    "names": [],
-    "file": "titulos.css"
-}

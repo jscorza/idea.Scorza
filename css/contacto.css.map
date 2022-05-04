@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,gBAAgB,EAAE,OAAkB;CAIvC;;AALD,AAEI,aAFS,CAET,OAAO,CAAA;EACH,MAAM,EAAE,QAAQ;CACnB;;AAEL,AAAA,OAAO,CAAA;EACH,gBAAgB,EAAE,qBAAqB;EACvC,OAAO,EAAE,SAAS;EAClB,MAAM,EAAE,UAAW;EACnB,aAAa,EAAE,IAAI;CACtB;;AACD,AAAA,KAAK,CAAA;EACD,gBAAgB,EAAE,OAAkB,CAAC,UAAU;EAC/C,YAAY,EAAE,OAAO;CACxB",
-    "sources": [
-        "../scss/contacto.scss"
-    ],
-    "names": [],
-    "file": "contacto.css"
-}
