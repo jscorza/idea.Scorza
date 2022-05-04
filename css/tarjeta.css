@@ -1,0 +1,42 @@
+.tarjeta {
+  width: 40%;
+  height: 200px;
+  background-color: #baafaf;
+  border-radius: 10px;
+  margin: 10px;
+  -webkit-box-shadow: 2px 2px 7px 2px;
+          box-shadow: 2px 2px 7px 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tarjeta__titulo {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-size: 13px;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: solid 20px;
+          box-shadow: solid 20px;
+}
+
+.tarjeta__img {
+  height: 90%;
+}
+
+.tarjeta__boton {
+  position: relative;
+}
+/*# sourceMappingURL=tarjeta.css.map */

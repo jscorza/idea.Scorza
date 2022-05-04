@@ -1,0 +1,172 @@
+.bodyMujeres {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 60px 120PX auto 60px;
+      grid-template-rows: 60px 120PX auto 60px;
+      grid-template-areas: "nav nav" "header header" "main main" "footer footer";
+}
+
+.bodyMujeres nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: nav;
+}
+
+.bodyMujeres header {
+  background-color: #bdd9e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+.bodyMujeres header video {
+  width: 25%;
+  height: 100%;
+}
+
+.bodyMujeres main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+}
+
+.bodyMujeres footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+}
+
+.video3m {
+  width: 0% !important;
+}
+
+.contenedorTarjetaM {
+  background-color: #bdd9e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES  ROPA MUJERES */
+.jeanBaggyWhite {
+  background-image: url(../img/prodMujeres/jeans/jeanBaggyWhite.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.jeanWideBlue {
+  background-image: url(../img/prodMujeres/jeans/jeanWideBlue.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.jeanRectosCanesu {
+  background-image: url(../img/prodMujeres/jeans/rectosCanesu.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.jeanRectosTB {
+  background-image: url(../img/prodMujeres/jeans/rectosTirobajo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.jeanWideBlack {
+  background-image: url(../img/prodMujeres/jeans/wideBlack.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.vestidoCortoCrochetRayas {
+  background-image: url(../img/prodMujeres/vestidos/cortoCrochetRayas.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.vestidoCortoFrunces {
+  background-image: url(../img/prodMujeres/vestidos/cortoFrunces.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.vestidoCortoTirantesFrunce {
+  background-image: url(../img/prodMujeres/vestidos/cortoTirantesFrunce.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.vestidoMidiTexture {
+  background-image: url(../img/prodMujeres/vestidos/miditexture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE */
+@media (min-width: 480px) {
+  .bodyMujeres {
+    -ms-grid-rows: 80px auto;
+        grid-template-rows: 80px auto;
+  }
+  .bodyMujeres .tarjeta {
+    height: 300px !important;
+  }
+  .bodyMujeres header video {
+    width: 16.66%;
+  }
+  .video3m {
+    width: 16.66% !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .bodyMujeres {
+    -ms-grid-rows: 80px auto;
+        grid-template-rows: 80px auto;
+  }
+  .bodyMujeres .tarjeta {
+    height: 350px !important;
+    background-size: contain !important;
+  }
+  .tituloSeason {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contenedorTarjetaM {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .bodyMujeres .tarjeta {
+    height: 350px !important;
+    background-size: cover !important;
+  }
+}
+/*# sourceMappingURL=mujeres.css.map */

@@ -1,0 +1,134 @@
+.bodyIndex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 60px 250px 200px 70px;
+      grid-template-rows: 60px 250px 200px 70px;
+      grid-template-areas: "nav nav" "header header" "main main" "footer footer";
+}
+
+.bodyIndex header {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+  background-image: url(../img/gente1_700x.jpg);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bodyIndex main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.contenedorH {
+  width: 40%;
+  background-image: url(../img/deco/gente2_65.jpg);
+  background-size: cover;
+}
+
+.contenedorH a {
+  font-size: 150%;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.354);
+  border-radius: 30px;
+}
+
+.contenedorM {
+  background-image: url(../img/deco/mujeresdec_55.jpg);
+  background-size: cover;
+  width: 60%;
+}
+
+.contenedorM a {
+  font-size: 150%;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0.354);
+  border-radius: 30px;
+}
+
+@media (min-width: 600px) {
+  nav {
+    font-size: 28px;
+  }
+  .tamIcono {
+    width: 28px;
+  }
+  .bodyIndex {
+    -ms-grid-rows: 70px 400px 350px 90px;
+        grid-template-rows: 70px 400px 350px 90px;
+  }
+  .titulo {
+    font-size: 54px;
+  }
+  .contenedorH a {
+    font-size: 45px;
+  }
+  .contenedorM a {
+    font-size: 45px;
+    padding-left: 23px;
+  }
+  footer div {
+    font-size: 26px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer div:nth-child(1) ul li:nth-child(3) {
+    padding-left: 30px;
+  }
+  .tamIconoR {
+    width: 40px;
+  }
+}
+
+@media (min-width: 1024PX) {
+  nav {
+    font-size: 45px;
+  }
+  .tamIcono {
+    width: 37px;
+  }
+  .bodyIndex {
+    -ms-grid-rows: 120px 600px 400px 120px;
+        grid-template-rows: 120px 600px 400px 120px;
+  }
+  .bodyIndex header {
+    background-image: url(../img/deco/gente1.jpg);
+  }
+  .titulo {
+    font-size: 70px !important;
+  }
+  .contenedorH a {
+    font-size: 60px;
+  }
+  .contenedorM a {
+    font-size: 60px;
+    padding-left: 23px;
+  }
+  footer div {
+    font-size: 38px;
+  }
+  footer div:nth-child(1) ul li:nth-child(3) {
+    padding-left: 40px;
+  }
+  .tamIconoR {
+    width: 60px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
